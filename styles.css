@@ -18,7 +18,8 @@ header {
     margin-bottom: 20px;
 }
 
-header .profile-picture {
+header .profile-picture 
+{
     width: 125px;
     height: 125px;
     border-radius: 50%;
