@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #800000;
 }
 
 .container {
@@ -16,6 +16,14 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+}
+
+header .profile-picture {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -60,4 +68,23 @@ ul {
 
 ul li {
     list-style-type: disc;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    .profile-picture {
+        width: 75px;
+        height: 75px;
+    }
 }
